@@ -1,0 +1,221 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #f5f5f5;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  border: none;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.education {
+  border-left: 3px solid #333;
+  padding-left: 20px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li:hover {
+  background-color: rosybrown;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+p {
+  font-size: 16px;
+}
+
+h2 {
+  margin-top: 30px;
+  font-size: 24px;
+}
+
+
+#content {
+  padding: 20px
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+section h2 {
+  margin-bottom: 20px;
+}
+
+
+
+
+.grid-container {
+  border-radius: 5px;
+  width: 70%;
+  height: 250px;
+  overflow: hidden;
+  margin: 10px 200px 0px 200px;
+}
+
+@keyframes bj {
+  0% {
+    transform: translateX(0);
+  }
+  
+  20% {
+    transform: translateX(0);
+  }
+  
+  25% {
+    transform: translateX(-1200px);
+  }
+  
+  40% {
+    transform: translateX(-1200px);
+  }
+  
+  45% {
+    transform: translateX(-2400px);
+  }
+  
+  60% {
+    transform: translateX(-2400px);
+  }
+  
+  65% {
+    transform: translateX(-3600px);
+  }
+  
+  80% {
+    transform: translateX(-3600px);
+  }
+  
+  85% {
+    transform: translateX(-4800px);
+  }
+  
+  100% {
+    transform: translateX(-4800px);
+  }
+}
+
+.grid-item {
+  display: block;
+  width: 6000px;
+  height: 250px;
+  animation: bj 8s linear infinite;
+}
+
+.grid-item img {
+  width: 1200px;
+  height: 250px;
+  padding: 0px;
+}
+
+
+form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  display: block;
+  width: 100%;
+  height: 30px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.form-button {
+  text-align: center;
+}
+
+.form-button button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #f5f5f5;
+  padding: 10px;
+  text-align: center;
+}
+
+#video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+video {
+  max-width: 100%;
+}
+
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* 设置容器高度为视口高度的70% */
+}
+
+.login-container form {
+  margin-bottom: 20px;
+}
+
+
+
+/* 登录界面*/
